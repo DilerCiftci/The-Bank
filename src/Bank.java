@@ -5,6 +5,7 @@ public class Bank {
         Scanner scanner = new Scanner(System.in);
 
         int choice = scanner.nextInt();
+        int total = scanner.nextInt();
         int balance = 0;
 
         while (true) {
@@ -16,7 +17,14 @@ public class Bank {
             System.out.println("4. Exit.");
 
             if (choice == 1) {
-                System.out.println("Your total balance: " + balance);
+                System.out.println("Your total balance is: " + balance);
+            }
+
+            else if (choice == 2) {
+                System.out.println("Enter amount to deposit: ");
+                int amount = scanner.nextInt();
+                total = balance += amount;
+                System.out.println("You deposited: " + total);
             }
         }
     }
