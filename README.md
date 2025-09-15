@@ -13,4 +13,4 @@ Feel free to test my program and leave any feedback. Have fun!
 
 Programming language: JAVA
 
-Creater/Author: Diler Ciftci
+Creator/Author: Diler Ciftci
