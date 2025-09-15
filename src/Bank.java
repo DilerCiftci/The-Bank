@@ -4,6 +4,9 @@ public class Bank {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        int choice = scanner.nextInt();
+        int balance = scanner.nextInt();
+
         while (true) {
             System.out.println("Welcome to the bank terminal.");
             System.out.println("Choose an action by entering a number from 1-4:");
