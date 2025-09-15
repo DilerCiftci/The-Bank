@@ -14,6 +14,10 @@ public class Bank {
             System.out.println("2. Deposit.");
             System.out.println("3. Withdraw.");
             System.out.println("4. Exit.");
+
+            if (choice == 1) {
+                System.out.println("Your total balance: " + balance);
+            }
         }
     }
 }
