@@ -40,5 +40,6 @@ public class Bank {
                 break;
             }
         }
+        scanner.close();
     }
 }
