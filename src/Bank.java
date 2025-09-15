@@ -29,23 +29,29 @@ public class Bank {
                 int amount = scanner.nextInt();
                 balance += amount;
                 System.out.println("You deposited: " + amount);
-            } // Chooses "Deposit" action, takes amount as input from user, adds it to your
-              // balance, Outputs amount deposited.
+            } /*
+               * Chooses "Deposit" action, takes amount as input from user, adds it to your
+               * balance, Outputs amount deposited.
+               */
 
             else if (choice == 3) {
                 System.out.println("Enter amount to withdraw: ");
                 int amount = scanner.nextInt();
                 balance -= amount;
                 System.out.println("You withdrew: " + amount);
-            } // Chooses "Withdraw" action, takes amount as input from user, removes it from
-              // your balance, Outputs amount Withdrawn.
+            } /*
+               * Chooses "Withdraw" action, takes amount as input from user, removes it from
+               * your balance, Outputs amount Withdrawn.
+               */
 
             else if (choice == 4) {
                 System.out.println("Thank you for choosing our bank services.");
                 System.out.println("Goodbye!");
                 break;
-            } // Chooses "Exit" action, outputs farewell message & closes the loop with
-              // "break;"
+            } /*
+               * Chooses "Exit" action, outputs farewell message & closes the loop with
+               * "break;"
+               */
         }
         scanner.close(); // Closes scanner
     }
