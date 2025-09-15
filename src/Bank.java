@@ -5,7 +5,7 @@ public class Bank {
         Scanner scanner = new Scanner(System.in);
 
         int choice = scanner.nextInt();
-        int balance = scanner.nextInt();
+        int balance = 0;
 
         while (true) {
             System.out.println("Welcome to the bank terminal.");
