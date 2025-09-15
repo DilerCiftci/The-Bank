@@ -9,6 +9,8 @@ After each choice and action, you'll get redirected to the main meny again throu
 
 The program will stop and close when the fourth option "Exit" is chosen.
 
+Feel free to test my program and to leave any feedback. Have fun!
+
 Programming language: JAVA
 
 Creater/Author: Diler Ciftci
