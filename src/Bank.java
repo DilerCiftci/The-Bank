@@ -23,8 +23,21 @@ public class Bank {
             else if (choice == 2) {
                 System.out.println("Enter amount to deposit: ");
                 int amount = scanner.nextInt();
-                total = balance += amount;
-                System.out.println("You deposited: " + total);
+                balance += amount;
+                System.out.println("You deposited: " + amount);
+            }
+
+            else if (choice == 3) {
+                System.out.println("Enter amount to withdraw: ");
+                int amount = scanner.nextInt();
+                balance -= amount;
+                System.out.println("You withdrew: " + amount);
+            }
+
+            else if (choice == 4) {
+                System.out.println("Thank you for choosing our bank services.");
+                System.out.println("Goodbye!");
+                break;
             }
         }
     }
