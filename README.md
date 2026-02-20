@@ -1,5 +1,5 @@
 # The-Bank
-Let me present to you, my terminal based program that acts like an atm machine.
+A terminal based program that acts like an atm machine.
 
 When started, the program welcomes you and gives you 4 options to choose from.
 
